@@ -91,7 +91,7 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <TextInput style={styles.movieNameInput}
                    placeholder="Enter a movie name!"
-                   placesholderTextColor="#aaa"
+                   placeholderTextColor="#aaa"
                    onChangeText = {(text) => this.movieInputChanged(text)}
                    onSubmitEditing = {() => this.movieNameInputSubmitted()}
         />
